@@ -1,29 +1,36 @@
-body {
-    color: red;
-}
+/* .card {
+  margin-left: auto;
+  margin-right: auto;
 
-em {
-    color: green;
-}
-
-/* .input {
-    display: inline-block;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    border: 1px solid #ced4da;
-}
-
-.hidden {
-    display: none;
-}
-
-
-.filter-widget-form-btn {
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    border: 1px solid #ced4da;
+  width: 650px;
+  margin-bottom: 0;
 } */
+
+.field-game {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 650px;
+  margin-bottom: 0;
+}
+
+.field {
+  width: 150px;
+  height: 150px;
+  margin: 0 5px 10px;
+  background: green;
+  border-radius: 10%;   /* квадрат - круг */
+}
+
+.field_goblin {
+  background-image: url(../imj/goblin.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: green;
+}
