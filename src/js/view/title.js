@@ -8,14 +8,6 @@ function createDiv(textTitle) {
 
 createDiv('Попаданий: <span>0</span><br>Промахов: <span>0</span><br>');
 
-// ---------
-// console.log(document.querySelectorAll('.status'));
-console.log(document.querySelectorAll('span')[0]);
-document.querySelectorAll('span')[0].classList = 'dead';
-
-console.log(document.querySelectorAll('span')[1]);
-document.querySelectorAll('span')[1].classList = 'lost';
-// ---------
 
 function createH1(textTitle) {
     const titleH1 = document.createElement('h1');

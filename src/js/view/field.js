@@ -16,8 +16,6 @@ function createDiv() {
 createDiv();
 
 
-
-
 let arr = document.querySelectorAll('.field');
 
 function intervalGoblin() {
